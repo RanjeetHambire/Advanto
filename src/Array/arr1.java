@@ -1,5 +1,7 @@
 package Array;
 
+//array lenght Method 
+
 public class arr1 {
 
 	public static void main(String[] args) {
