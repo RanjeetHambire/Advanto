@@ -9,18 +9,18 @@ public class fibonacci {
 		Scanner sc = new Scanner(System.in)) {
 			int n =sc.nextInt();
 			
-			int output = fibonacci(n);
+			int output = Calfibonacci(n);
 			System.out.println(output);
 		}
 	}
-	public static int fibonacci(int n){
+	public static int Calfibonacci(int n){
 
         if( n <= 0 ){
             return 0;
         } else if( n == 1){
             return 1;
         }else{
-            return fibonacci(n-1) + fibonacci(n-2);
+            return Calfibonacci(n-1) + Calfibonacci(n-2);
         }
 
     }

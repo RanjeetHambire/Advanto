@@ -24,17 +24,18 @@ public class ReverseString {
 //            Second Method	
 	
 	public static void main(String[] args) {
-		Scanner sc =  new Scanner(System.in);
-		System.out.println("Enter the String: ");
-		String str = sc.nextLine();
-		String rev = "";
-		char ch;
-		
-		for(int i= str.length() - 1; i>=0 ; i--) {
-			ch = str.charAt(i);
-			rev += ch;
+		try (Scanner sc = new Scanner(System.in)) {
+			System.out.println("Enter the String: ");
+			String str = sc.nextLine();
+			String rev = "";
+			char ch;
+			
+			for(int i= str.length() - 1; i>=0 ; i--) {
+				ch = str.charAt(i);
+				rev += ch;
+			}
+			System.out.println(rev);
 		}
-		System.out.println(rev);
 	}
 	
 }
