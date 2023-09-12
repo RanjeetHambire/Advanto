@@ -1,5 +1,6 @@
 package classes;
 
+
 public class priv1 {
 
 	public static void main(String[] args) {
