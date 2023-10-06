@@ -17,6 +17,8 @@ public class methods_ArrayList {
 		System.out.println(list.size());
 		list.set(1, "Vaishu");
 		list.get(2);
+		
+		list.set(1, "Aditya");
 
 		System.out.println(list);
 	}
